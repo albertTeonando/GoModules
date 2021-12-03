@@ -1,7 +1,7 @@
 package go_module
 
-func SayHello() string {
-	return "Helloo man"
+func SayHello(name string) string {
+	return "Helloo man" + name
 }
 
 func Test() {
